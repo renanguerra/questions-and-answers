@@ -1,0 +1,31 @@
+1) Qual o Framework criado pela Google?
+a) React Native 
+b) React
+c) Angular 
+d) Ionic
+
+2) Qual personagem da Turma da Mônica fala errado?
+a) Mônica
+b) Cebolinha
+c) Goku
+d) Anitta
+
+3) Quantos animais de cada especie Moises colocou na Arca?
+a) Nenhum
+b) 2
+c) 4
+d) 3
+
+4) Teste?
+a) A
+b) Não sei
+c) Testando
+d) Nenhuma
+
+5) Teste?
+a) A
+b) Não sei
+c) Testando
+d) Nenhuma
+
+fim
