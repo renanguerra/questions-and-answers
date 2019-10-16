@@ -18,6 +18,7 @@ def pergunta():
             break
         elif linhas == 'fim':
             print('Final de jogo')
+            print('Seu score foi de {} pontos'.format(score))
             break
         else:
             print (linhas)
@@ -34,8 +35,9 @@ def resposta():
     else:
         estado = False
         print('Você errou')
+        print('-------------------------')
         print('Fim de jogo!')
-        print('Tente novamente')
+        print('-------------------------')
         print('Seu score foi de {} pontos'.format(score))
         
 def pontuação():
@@ -71,9 +73,10 @@ def pontuação():
 
 
     if score < quinto_pontu:
-        print('nada acontece')
+        print('')
     elif score >= primeiro_pontu:
         pontu = open('pontuação.txt','w')
+        print('-------------------------')
         pontu.write(cabeçalho)
         pontu.write(pontos)
         pontu.write(primeiro)
@@ -83,6 +86,7 @@ def pontuação():
         pontu.close()
     elif score >= segundo_pontu and score < primeiro_pontu:
         pontu = open('pontuação.txt','w')
+        print('-------------------------')
         pontu.write(cabeçalho)
         pontu.write(primeiro)
         pontu.write(pontos)
@@ -92,6 +96,7 @@ def pontuação():
         pontu.close()
     elif score >= terceiro_pontu and score < segundo_pontu:
         pontu = open('pontuação.txt','w')
+        print('-------------------------')
         pontu.write(cabeçalho)
         pontu.write(primeiro)
         pontu.write(segundo)
@@ -101,6 +106,7 @@ def pontuação():
         pontu.close()
     elif score >= quarto_pontu and score < terceiro_pontu:
         pontu = open('pontuação.txt','w')
+        print('-------------------------')
         pontu.write(cabeçalho)
         pontu.write(primeiro)
         pontu.write(segundo)
@@ -110,13 +116,18 @@ def pontuação():
         pontu.close()
     elif score >= quinto_pontu and score < quarto_pontu:
         pontu = open('pontuação.txt','w')
+        print('-------------------------')
         pontu.write(cabeçalho)
         pontu.write(primeiro)
         pontu.write(segundo)
         pontu.write(terceiro)
         pontu.write(quarto)
         pontu.write(pontos)
-        pontu.close()          
+        pontu.close()
+
+def clear():
+    for i in range(40):
+        print('')
 #------------------------------MAIN------------------------------------------
 
 
@@ -130,6 +141,7 @@ time.sleep(1)
 
 while estado == True:
     resposta_final = pergunta()
+    clear()
     resposta()
 
 pontuação()

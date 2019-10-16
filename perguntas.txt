@@ -4,25 +4,43 @@ b) React
 c) Angular 
 d) Ionic
 
-2) Qual personagem da Turma da Mônica fala errado?
+2) O JavaScript é baseado em Java?
+a) Óbvio
+b) Nada a ver
+c) Sim
+d) JavaScript é a mesma coisa que o Java
+
+3) Qual a origem do nome JAVA?
+a) Java Coffe
+b) JavaLI
+c) Java era o sobrenome do criador da linguagem
+d) Java era o nome do seu falecido companheiro de equipe
+
+4) Em qual linguagem é programado aplicativos para IOS?
+a) JavaScript
+b) React Native
+c) Swift
+d) Kotlin
+
+5) Qual personagem da Turma da Mônica fala errado?
 a) Mônica
 b) Cebolinha
 c) Goku
 d) Anitta
 
-3) Quantos animais de cada especie Moises colocou na Arca?
+6) Quantos animais de cada especie Moises colocou na Arca?
 a) Nenhum
 b) 2
 c) 4
 d) 3
 
-4) Teste?
-a) A
-b) Não sei
-c) Testando
+7) O que pesa mais 1 Toneladas de Pedra ou 1 tonelada de Penas?
+a) 1 Toneladas de Pedra
+b) 1 tonelada de Penas
+c) Lógico que a Pedra
 d) Nenhuma
 
-5) Teste?
+8) Teste?
 a) A
 b) Não sei
 c) Testando
