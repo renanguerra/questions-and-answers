@@ -29,7 +29,11 @@ def resposta():
     global estado
     
     if resposta_final == respostas_linha[a]:
+        print('='*50)
         print('\nResposta Correta\n')
+        print('='*50)
+        print('\nProxima Pergunta\n')
+        print('='*50)
         score = score + 10
         a = a + 1
     else:
@@ -125,9 +129,6 @@ def pontuação():
         pontu.write(pontos)
         pontu.close()
 
-def clear():
-    for i in range(40):
-        print('')
 #------------------------------MAIN------------------------------------------
 
 
@@ -136,12 +137,14 @@ nome = input('Digite seu nome: ')
 time.sleep(1)
 print ('\nOlá, {}'.format(nome))
 time.sleep(1)
-print ('\nSeja Bem-Vindo\n')
+print ('\nSeja Bem-Vindo!\n')
 time.sleep(1)
-
+print ('='*70)
+print ('\t#O jogo irá começar!\n\t#Responda as perguntas de acordo com o item que você julga correto.\n\t#Cada pergunta vale 10 pontos.\nBoa Sorte!\n')
+print ('='*70)
+print ('')
 while estado == True:
     resposta_final = pergunta()
-    clear()
     resposta()
 
 pontuação()
